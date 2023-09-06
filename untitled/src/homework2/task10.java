@@ -12,12 +12,15 @@ public class task10 {
         }
         if (a > 0) {
             for (int i = 2; i <= a; ++i) {
-                // condition for nonprime number
-                if (a % i == 0) {
-                System.out.println(" prime number: " + a);
+
+                if ((a % i == 0) && (a > i)) {
+                    System.out.println("Not prime number: " + a);
+                    break; // if there is a divisible smaller number, than tha actual number , will stop
                 }
-                else{
-                System.out.println("Not prime number: " + a);}
+                if ((a % i == 0) && (a == i)) {
+                System.out.println("Prime number: " + a);
+
+                }
             }
         }
     }
