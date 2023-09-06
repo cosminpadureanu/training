@@ -1,3 +1,5 @@
+package homework1;
+
 import java.util.Scanner;
 
 //Tasks
@@ -17,13 +19,13 @@ public class task7 {
         if (mod == 0) {
            System.out.println(prod + " Number is even");
                 }
-                else {
-                    System.out.println(prod + " Number is odd");
+        else {
+            System.out.println(prod + " Number is odd");
                 }
-
         if(mod2 % 3 == 0) {
             System.out.println("Last digit " + mod2 + " is divisible by 3");
-        } else {
+        }
+        else {
             System.out.println("last digit  " + mod2 + " is not divisible by 3");
         }
     }

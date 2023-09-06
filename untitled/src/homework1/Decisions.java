@@ -1,3 +1,5 @@
+package homework1;
+
 public class Decisions {
     public static void main(String[] args) {
         int a = 25;

@@ -1,3 +1,5 @@
+package homework1;
+
 import java.util.Scanner;
 
 //Tasks
@@ -15,11 +17,12 @@ public class task1 {
         System.out.println("Enter C: ");
         float c = sc.nextFloat();
 
-        if ((c >= a) && (c < b))
-        {
-            System.out.println(c + " is between " +  a + " and " + b);
+        if (c > a && (c < b && a < b)) {
+            System.out.println(c + " is between " + a + " and " + b);
+        } else if (a > c && (c > b && a > b)) {
+            System.out.println(c + " is between " + b + " and " + a);
+        } else {
+            System.out.println(c + " is NOT between " + a + " and " + b);
         }
-        else
-            System.out.println(c + " is NOT between " +  a + " and " + b);
-            }
+    }
 }
