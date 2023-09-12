@@ -9,9 +9,8 @@ public class task7 {
         int a = sc.nextInt();
 
         if (a <= 0){
-             System.out.println("Number is negative or 0, try again ");
-             }
-        else if (a > 0){
+            System.out.println("Number is negative or 0, try again ");
+            } else if (a > 0){
             int c = 0;
             for (int i = 1; i <= a; i++) {
                  c += i;

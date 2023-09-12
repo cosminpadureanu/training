@@ -11,14 +11,10 @@ public class task1 {
 
     switch (c) {
         case 'Y' :
+        case 'y' :
             System.out.println("Yes");
             break;
-        case 'y' :
-            System.out.println("yes");
-            break;
         case 'n' :
-            System.out.println("No");
-            break;
         case 'N' :
             System.out.println("No");
             break;

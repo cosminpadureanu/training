@@ -13,9 +13,10 @@ public class task8 {
             System.out.println("Number is negative or 0, try again ");
         } else if (a > 0) {
             int c = 0;
-            for (int i = 1; i <= a; i++) {
-                if (i % 3 == 0) {
-                    System.out.println(i);
+            for (int i = 3; c < a; i+=3, c++) {
+                System.out.print(i);
+                if( c+1 < a ) {
+                    System.out.print(",");
                 }
             }
         }
